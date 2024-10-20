@@ -1,0 +1,91 @@
+/* Custom Modal Content Styling */
+.custom-modal-content {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    outline: none;
+  }
+  
+  .modal-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Custom Overlay Styling */
+  .custom-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* Product Image */
+  .product-img {
+    width: 70%;
+    height: auto;
+    margin: 15px 0;
+  }
+ 
+  /* Price Styling */
+  .price {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Modal Buttons */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    margin-top: 20px;
+  }
+  @media screen and (max-width:768px){
+    .custom-modal-content{
+      width: 300px;
+      padding: 10px;
+    }.product-img {
+      width: 50%;
+      height: 200px;
+      margin: 15px 0;
+    }.price{
+      font-size: 20px;
+    }.modal-buttons{
+      gap:30px
+    }
+  }
+  /* Confirm Button */
+  .confirm-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

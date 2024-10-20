@@ -1,0 +1,63 @@
+.filter-sidebar {
+    background-color: #f0f9e9; /* Light green background */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height:80vh
+}
+@media screen and (max-width:768px){
+    .filter-sidebar{
+        height: 90vh;
+    }
+   
+}
+.filter-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clear-button {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter-item p {
+    font-size: 16px;
+    color: #333;
+    text-align: left; 
+    flex-grow: 1; 
+}
+
+.expand-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+    text-align: right; /* Ensure right alignment of the + sign */
+   
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    width:300px
+}
